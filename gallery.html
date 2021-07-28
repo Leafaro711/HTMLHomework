@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        img {
+            margin: 10px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        
+        
+        .row {
+            
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 10px;
+            margin: 0 10px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%; /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+        
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+        
+       
+        
+        </style>
+</head>
+<body>
+    <!-- Header -->
+<div class="header">
+    <h1>Сетка адаптивного изображения</h1>
+    <p>Измените размер окна обозревателя, чтобы увидеть эффект реагирования.</p>
+  </div>
+  
+  <!-- Photo Grid -->
+
+    <div class="row">
+      <img src="./img/hotel1.jpg" style="width:100%">
+      <img src="./img/hotel2.jpg" style="width:100%">
+      <img src="./img/hotel3.jpg" style="width:100%">
+      <img src="./img/hotel4.jpg" style="width:100%">
+      <img src="./img/hotel5.jpg" style="width:100%">
+      <img src="./img/hotel6.jpg" style="width:100%">
+      <img src="./img/hotel7.jpg" style="width:100%">
+      <img src="./img/hotel8.jpg" style="width:100%">
+      <img src="./img/hotel9.jpg" style="width:100%">
+    </div>
+    
+      
+</body>
+</html>

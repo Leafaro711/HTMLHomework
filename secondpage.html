@@ -4,36 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <!-- The grid: four columns -->
+  <header>
+    <ul class="menu-main">
+      <li><a href="./firstpage.html" >About</a></li>
+      <li><a href="./secondpage.html" class="current">Gallery</a></li>
+      <li><a href="./thirdpage.html">Contact</a></li>
+    </ul>
+  </header>
+
 <div class="row">
     <div class="column">
-      <img src="" alt="Nature" onclick="openImg(this);">
+      <img src="./img/hotel1.jpg" alt="hotel1" >
     </div>
     <div class="column">
-      <img src="img_snow.jpg" alt="Snow" onclick="openImg(this);">
+      <img src="./img/hotel2.jpg" alt="hotel2" >
     </div>
     <div class="column">
-      <img src="img_mountains.jpg" alt="Mountains" onclick="openImg(this);">
+      <img src="./img/hotel3.jpg" alt="hotel3" >
     </div>
     <div class="column">
-      <img src="img_lights.jpg" alt="Lights" onclick="openImg(this);">
+      <img src="./img/hotel4.jpg" alt="hotel4" >
+    </div>
+    <div class="column">
+      <img src="./img/hotel5.jpg" alt="hotel4" >
+    </div>
+    <div class="column">
+      <img src="./img/hotel6.jpg" alt="hotel4" >
+    </div>
+    <div class="column">
+      <img src="./img/hotel7.jpg" alt="hotel4" >
+    </div>
+    <div class="column">
+      <img src="./img/hotel8.jpg" alt="hotel4" >
+    </div>
+    <div class="column">
+      <img src="./img/hotel9.jpg" alt="hotel4" >
     </div>
   </div>
   
-  <!-- The expanding image container -->
-  <div class="container">
-    <!-- Close the image -->
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  
-    <!-- Expanded image -->
-    <img id="expandedImg" style="width:100%">
-  
-    <!-- Image text -->
-    <div id="imgtext"></div>
-  </div>
 </body>
 </html>
