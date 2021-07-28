@@ -1,24 +1,42 @@
-div {
-    background-color: rgb(49, 55, 117);
-    justify-content: left;
-       border: black;
-       display: flex;
-       flex-direction: row;
-       align-items: center;
+.name {
+  background-color: rgb(37, 37, 77);
 }
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+  text-decoration: underline;
+ }
+ .descript {
+  color: white;
+ }
+ h3 {
+   color: rgb(37, 37, 77);
+   text-decoration: underline;
+ }
 span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aquamarine;
+    background-color: white;
 }
 body {
+  background-color: whitesmoke;
     margin: 0;
+}
+.blok {
+  margin-left: 20px;
 }
 
 img {
   border-radius: 50%
 }
+div {
+  display: grid;
+  padding-left: 20px
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 .menu-main {
@@ -72,4 +90,11 @@ img {
   padding: 25px 0 20px; 
   margin: 0 30px;
 }
+}
+
+
+
+aside {
+  width: 33%;
+  float: left;
 }
