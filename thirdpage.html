@@ -31,7 +31,23 @@
             <option value="russia">Russia</option>
             <option value="usa">USA</option>
           </select>
-      
+
+          <label for="radio" class="radio">Man
+            <input type="radio" checked="checked" name="radio">
+          </label>
+          <label for="radio" class="radio">Woman
+            <input type="radio" name="radio">
+          </label>
+     <br>
+      <label for="tel">
+        <p>Phone:
+        <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" required placeholder="Your number..">
+        </p>
+      </label>
+      <label for="email">
+        <p>E-mail:  <input type="email" name="email" placeholder="Your email.."></p>
+      </label>
+      <br><br>
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
