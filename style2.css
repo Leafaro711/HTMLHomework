@@ -1,9 +1,7 @@
 .column {
-    float: center;
     width: 30%;
-    height: auto;
     padding: 10px;
-    margin: auto;
+    margin: auto;  
 }
 
 .column img {
@@ -17,11 +15,14 @@
     opacity: 1;
 }
 .row {
-    display: flex; 
-    flex-wrap: wrap;
-  justify-content: center
   
-}
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  
+ }
+
 
 
 
