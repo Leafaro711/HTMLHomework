@@ -1,44 +1,3 @@
-.name {
-  background-color: rgb(37, 37, 77);
-}
-h1 {
-  color: white;
-}
-h2 {
-  color: white;
-  text-decoration: underline;
- }
- .descript {
-  color: white;
- }
- h3 {
-   color: rgb(37, 37, 77);
-   text-decoration: underline;
- }
-span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-}
-body {
-  background-color: whitesmoke;
-    margin: 0;
-}
-.blok {
-  margin-left: 20px;
-}
-
-img {
-  border-radius: 50%
-}
-div {
-  display: grid;
-  padding-left: 20px
-}
-
-
-
 .menu-main {
   list-style: none;
   margin: 40px 0 5px;
@@ -93,8 +52,40 @@ div {
 }
 
 
-
-aside {
-  width: 33%;
-  float: left;
+.row {
+  display: flex;
+  flex-wrap: nowrap;
 }
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+  width: 25%;
+  
+}
+
+.right {
+  width: 75%;
+  background-color: whitesmoke;
+  
+}
+
+ .name {
+   background-color: #3b477a;
+   padding: 20px;
+   color: white;
+ }
+ h3, h2 {
+   color: #3b477a ;
+ }
+ h2 {
+   text-decoration: underline;
+ }
+ .skill {
+   background-color: #3b477a;
+   padding: 5px;
+   color: white;
+ }

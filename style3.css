@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
 .menu-main {
   list-style: none;
   margin: 40px 0 5px;
@@ -16,7 +16,7 @@
 .menu-main li:last-child:after {content: none;}
 .menu-main a {
   text-decoration: none;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family:  'Arial', sans-serif;
   letter-spacing: 2px;
   position: relative;
   padding-bottom: 20px;
@@ -51,8 +51,8 @@
   margin: 0 30px;
 }
 }
-
 body {font-family: Arial, Helvetica, sans-serif;}
+
 
 input[type=text], select, textarea {
     width: 100%;
